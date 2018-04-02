@@ -28,16 +28,16 @@
                 <model>Cybage\Cybersource\Model\Cybersourcesa</model>
                 <active>1</active>
                 <test>1</test>
-                <title>Cybersource Secure Acceptance By Cybage</title>
+                <title>CyberSource Secure Acceptance By Cybage</title>
                 <order_status>pending_payment</order_status><!-- set default order status-->
                 <cctypes>AE,VI,MC,DI</cctypes>
-                <soap_gateway_url>https://ics2ws.ic3.com/commerce/1.x/transactionProcessor/CybersourceTransaction_1.145.wsdl</soap_gateway_url>
-                <test_soap_gateway_url>https://ics2wstest.ic3.com/commerce/1.x/transactionProcessor/CybersourceTransaction_1.145.wsdl</test_soap_gateway_url>
-                <redirect_label>You will be redirected to Cybersource Secure Acceptance website to complete checkout</redirect_label>
+                <soap_gateway_url>https://ics2ws.ic3.com/commerce/1.x/transactionProcessor/CyberSourceTransaction_1.145.wsdl</soap_gateway_url>
+                <test_soap_gateway_url>https://ics2wstest.ic3.com/commerce/1.x/transactionProcessor/CyberSourceTransaction_1.145.wsdl</test_soap_gateway_url>
+                <redirect_label>You will be redirected to CyberSource Secure Acceptance website to complete checkout</redirect_label>
             </cybersourcesa>
 <!--            <cybersourcetoken>
                 <payment_action>authorize</payment_action> You can use another methor like capture  
-                <model>Cybage\Cybersource\Model\Cybersourcetoken</model>
+                <model>Cybage\Cybersource\Model\CyberSourcetoken</model>
                 <active>1</active>
                 <title>Cybersource token SA</title>
                 <order_status>pending_payment</order_status> set default order status
